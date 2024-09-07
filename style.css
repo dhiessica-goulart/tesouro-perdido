@@ -13,7 +13,7 @@ body {
     margin: 0; /* Remove a margem padrão */
     padding: 0; /* Remove o padding padrão */
 
-    background-image: url('./Imagens-bichos/biomas.png');
+    background-image: url('./biomas.png');
     background-repeat: no-repeat;
     background-size: contain;
     background-position: top;

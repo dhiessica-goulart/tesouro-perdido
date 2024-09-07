@@ -46,7 +46,7 @@ console.log(section)
             resultados += `<div class="item-resultado">
             <h2 class="titulo-animal">${dado.titulo}</h2>
 
-            <div class="imagem-animal" style="background-image:url('./Imagens-bichos/${dado.imagem}')"></div>
+            <div class="imagem-animal" style="background-image:url('./${dado.imagem}')"></div>
             <div class="texto-animal">
             <p class="nome-meta"><b> Nome Científico: </b>   <i> ${dado.nomeCientifico} </i></p>
             <p><b> Descrição: </b>${dado.descricao} </p>
