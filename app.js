@@ -27,14 +27,14 @@ function pesquisarPantanal (){
 
 }
 
-function pesquisarBiomas(){
+function pesquisarBioma(){
     let section = document.getElementById("resultados-pesquisa");
-    let resultado = `<div class="fundoBiomas">
+    let resultado = `<div >
     
     
     
     </div>`;
-    section.innerHTML = resultados;
+    section.innerHTML = resultado;
 }
 
 function pesquisar (listaBichos){

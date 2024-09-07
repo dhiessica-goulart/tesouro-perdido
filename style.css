@@ -29,15 +29,17 @@ body {
 
 /* Estiliza os títulos h1 */
 h1 {
-    font-size: 3rem; /* Tamanho da fonte */
-    color: #010000; /* Cor do texto */
+    font-size: 4rem; /* Tamanho da fonte */
+    color: #11eb8a; /* Cor do texto */
     text-align: center; /* Alinha o texto ao centro */
     letter-spacing: 0.4rem; /* Espaçamento entre letras */
-    text-shadow: 1px 1px #F5F7F8;
+    text-shadow: 2px 2px #050505;
+    padding-top: 300px;
 }
 
 .buttonList{
     align-items: center;
+    justify-content: center;
 }
 /*
 .fundoBiomas{
@@ -70,13 +72,14 @@ section input {
 /* Estiliza os botões dentro das seções */
 section button {
     padding: 0.8rem 1.2rem; /* Espaçamento interno do botão */
-    border: none; /* Remove a borda padrão */
     border-radius: 1.5rem; /* Borda arredondada */
     background-color: #056017; /* Cor de fundo do botão */
     color: #F5F7F8; /* Cor do texto do botão */
     font-size: 1rem; /* Tamanho da fonte */
     cursor: pointer; /* Muda o cursor para indicar que é clicável */
     margin: 10px;
+    border-color: yellow
+
 }
 
 /* Adiciona efeito hover ao botão de pesquisa */
@@ -95,6 +98,8 @@ section button:hover {
     border-radius: 0.6rem; /* Borda arredondada */
     flex-direction: column;
 
+
+
 }
 
 .imagem-animal{
@@ -107,6 +112,7 @@ section button:hover {
     box-sizing: border-box;
     background-size: cover;
     background-position: top;
+   
 }
 
 .titulo-animal{
@@ -123,11 +129,12 @@ section button:hover {
 /* Estiliza cada item de resultado */
 .item-resultado {
     width: 95%;
-    background: #FFFFFF; /* Cor de fundo dos itens */
+    background: #b8dfb3; /* Cor de fundo dos itens */
     border-radius: 0.6rem; /* Borda arredondada */
     padding: 1rem; /* Espaçamento interno */
     margin-bottom: 1rem; /* Espaçamento abaixo dos itens */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra leve */
+   
 }
 
 /* Estiliza os títulos dentro dos itens de resultado */
